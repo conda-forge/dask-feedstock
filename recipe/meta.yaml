@@ -22,7 +22,7 @@ requirements:
     - python
     - bokeh
     - cloudpickle >=0.2.1
-    - distributed >=1.11.0
+    - distributed >=1.13.2
     - numpy
     - pandas >=0.18.0
     - partd >=0.3.3
