@@ -11,6 +11,18 @@ Summary: Minimal task scheduling abstraction
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dask-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/dask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dask-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dask-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask/badges/version.svg)](https://anaconda.org/conda-forge/dask)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask/badges/downloads.svg)](https://anaconda.org/conda-forge/dask)
+
 Installing dask
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `dask` available on your platform 
 ```
 conda search dask --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dask-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dask-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dask-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask/badges/version.svg)](https://anaconda.org/conda-forge/dask)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask/badges/downloads.svg)](https://anaconda.org/conda-forge/dask)
 
 
 Updating dask-feedstock
