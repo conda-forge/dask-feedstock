@@ -22,11 +22,11 @@ requirements:
     - python
     - bokeh
     - cloudpickle >=0.2.1
-    - distributed >=1.11.0
     - numpy
     - pandas >=0.18.0
     - partd >=0.3.6
     - toolz >=0.7.2
+#   - distributed >=1.11.0
 
 test:
   imports:
