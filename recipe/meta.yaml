@@ -44,7 +44,7 @@ test:
 about:
   home: http://github.com/dask/dask/
   license: BSD 3-Clause
-  summary: 'Minimal task scheduling abstraction'
+  summary: 'Parallel PyData with task scheduling'
 
 extra:
   recipe-maintainers:
