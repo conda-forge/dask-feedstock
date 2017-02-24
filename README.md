@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Minimal task scheduling abstraction
+Summary: Parallel PyData with task scheduling
 
 
 
