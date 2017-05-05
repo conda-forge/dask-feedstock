@@ -1,4 +1,4 @@
-{% set version = "0.14.2" %}
+{% set version = "0.14.3" %}
 
 package:
   name: dask
@@ -7,7 +7,7 @@ package:
 source:
   fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 19b03af017f11396f727fbd21c3e5377098e7ae71362bf7a61be2eaf05fb9371
+  sha256: 9bf007f9cedc08f73089f0621ff65ec0882fc0a834acef56830dfd2872908211
 
 build:
   number: 0
@@ -42,7 +42,8 @@ test:
 about:
   home: http://github.com/dask/dask/
   license: BSD 3-Clause
-  summary: 'Parallel PyData with task scheduling'
+  license_file: LICENSE.txt
+  summary: 'Parallel Python with task scheduling'
 
 extra:
   recipe-maintainers:
