@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Parallel PyData with task scheduling
+Summary: Parallel Python with task scheduling
 
 
 
