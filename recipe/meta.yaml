@@ -1,4 +1,4 @@
-{% set version = "0.15.2" %}
+{% set version = "0.15.3" %}
 
 package:
   name: dask
@@ -6,6 +6,7 @@ package:
 
 build: 
   number: 0
+  noarch: python
 
 requirements:
   build:
@@ -16,7 +17,7 @@ requirements:
     - bokeh
     - cloudpickle >=0.2.1
     - dask-core {{ version }}
-    - distributed >=1.16.0
+    - distributed >=1.19.0
     - numpy
     - pandas >=0.19.0
     - partd >=0.3.8
