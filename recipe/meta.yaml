@@ -16,6 +16,7 @@ requirements:
     - python
     - bokeh
     - cloudpickle >=0.2.1
+    - cytoolz >=0.7.3
     - dask-core {{ version }}
     - distributed >=1.21.0
     - numpy
