@@ -45,6 +45,7 @@ test:
 about:
   home: http://github.com/dask/dask/
   license: BSD 3-Clause
+  license_file: LICENSE.txt
   summary: 'Parallel Python with task scheduling'
   doc_url: https://dask.pydata.org/
   dev_url: https://github.com/dask/dask
