@@ -16,9 +16,12 @@ Current build status
 
 
 <table><tr>
+    
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5195&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dask-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
 </table>
@@ -118,6 +121,7 @@ Feedstock Maintainers
 * [@alimanfoo](https://github.com/alimanfoo/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@jcrist](https://github.com/jcrist/)
+* [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@koverholt](https://github.com/koverholt/)
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
