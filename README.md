@@ -1,14 +1,15 @@
 About dask
 ==========
 
-Home: http://github.com/dask/dask/
+Home: https://dask.org/
 
 Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Parallel Python with task scheduling
+Summary: Parallel PyData with Task Scheduling
 
+Dask is a flexible parallel computing library for analytics.
 
 
 Current build status
