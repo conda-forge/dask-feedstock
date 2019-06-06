@@ -10,7 +10,7 @@ source:
   sha256: 5e7876bae2a01b355d1969b73aeafa23310febd8c353163910b73e93dc7e492c
 
 build:
-  number: 2
+  number: 3
   noarch: python
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - distributed >=1.28.0
     - numpy >=1.13.0
     - pandas >=0.21.0
-    - partd >=0.3.8
+    - partd >=0.3.10
     - toolz >=0.7.3
 
 test:
