@@ -24,6 +24,7 @@ requirements:
     - cytoolz >=0.7.3
     - dask-core {{ version }}
     - distributed >=2
+    - fsspec >=0.3.3
     - numpy >=1.13.0
     - pandas >=0.21.0
     - partd >=0.3.10
