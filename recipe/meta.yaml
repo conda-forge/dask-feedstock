@@ -10,15 +10,15 @@ source:
   sha256: 0dfcb2bd7963b34fbebaa0dd393bae9a6323a6f33cf1260f3ab0ee93ba9fa89f
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
 
   run:
-    - python >=3.5
+    - python >=3.6
     - bokeh >=1.0.0
     - cloudpickle >=0.2.1
     - cytoolz >=0.7.3
