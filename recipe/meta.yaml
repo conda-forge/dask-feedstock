@@ -29,6 +29,8 @@ requirements:
     - pandas >=0.23.0
     - partd >=0.3.10
     - toolz >=0.8.2
+
+  run_constrained:
     - openssl !=1.1.1e
 
 test:
