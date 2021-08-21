@@ -20,6 +20,7 @@ requirements:
   run:
     - python >=3.7
     - bokeh >=1.0.0,!=2.0.0
+    - jinja2
     - cytoolz >=0.8.2
     - dask-core {{ version }}
     - distributed {{ version }}
