@@ -1,20 +1,17 @@
-About dask
-==========
+About dask-split
+================
 
-Home: https://dask.org/
+Home: https://github.com/dask/dask/
 
 Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-feedstock/blob/master/LICENSE.txt)
 
-Summary: Parallel PyData with Task Scheduling
+Summary: Parallel Python with task scheduling
 
 Development: https://github.com/dask/dask
 
 Documentation: https://dask.org/
-
-Dask is a flexible parallel computing library for analytics.
-
 
 Current build status
 ====================
@@ -35,21 +32,23 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-dask-green.svg)](https://anaconda.org/conda-forge/dask) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask.svg)](https://anaconda.org/conda-forge/dask) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask.svg)](https://anaconda.org/conda-forge/dask) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask.svg)](https://anaconda.org/conda-forge/dask) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dask--core-green.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-distributed-green.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) |
 
-Installing dask
-===============
+Installing dask-split
+=====================
 
-Installing `dask` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `dask-split` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `dask` can be installed with:
+Once the `conda-forge` channel has been enabled, `dask, dask-core, distributed` can be installed with:
 
 ```
-conda install dask
+conda install dask dask-core distributed
 ```
 
 It is possible to list all of the versions of `dask` available on your platform with:
@@ -98,17 +97,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating dask-feedstock
-=======================
+Updating dask-split-feedstock
+=============================
 
-If you would like to improve the dask recipe or build a new
+If you would like to improve the dask-split recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/dask-feedstock are
+Note that all branches in the conda-forge/dask-split-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
@@ -128,8 +127,12 @@ Feedstock Maintainers
 * [@jcrist](https://github.com/jcrist/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@koverholt](https://github.com/koverholt/)
+* [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
+* [@ogrisel](https://github.com/ogrisel/)
 * [@pitrou](https://github.com/pitrou/)
+* [@shoyer](https://github.com/shoyer/)
+* [@sinhrks](https://github.com/sinhrks/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
 
