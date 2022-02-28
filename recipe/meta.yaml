@@ -1,5 +1,5 @@
 {% set version = "2022.2.1" %}
-{% set number = 0 %}
+{% set build_number = 0 %}
 
 
 package:
@@ -15,13 +15,13 @@ source:
     folder: distributed
 
 build:
-  number: {{ number }}
+  number: {{ build_number }}
 
 outputs:
   - name: dask-core
     build:
       noarch: python
-      number: {{ number }}
+      number: {{ build_number }}
     script: build-dask-core.sh
     requirements:
       host:
@@ -62,7 +62,7 @@ outputs:
     version: {{ version }}
     build:
       noarch: python
-      number: {{ number }}
+      number: {{ build_number }}
     script: build-distributed.sh
     entry_points:
       - dask-scheduler = distributed.cli.dask_scheduler:go
@@ -124,7 +124,7 @@ outputs:
     version: {{ version }}
     build:
       noarch: python
-      number: {{ number }}
+      number: {{ build_number }}
     requirements:
       host:
         - python >=3.8
