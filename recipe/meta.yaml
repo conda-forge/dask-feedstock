@@ -50,7 +50,7 @@ outputs:
       commands:
         - python -m pip check
     about:
-      home: https://github.com/dask/dask/
+      home: https://dask.org/
       summary: Parallel PyData with Task Scheduling
       license: BSD-3-Clause
       license_file: dask/LICENSE.txt
