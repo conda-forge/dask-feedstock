@@ -1,7 +1,7 @@
 About dask-split
 ================
 
-Home: https://github.com/dask/dask/
+Home: https://dask.org/
 
 Package license: BSD-3-Clause
 
