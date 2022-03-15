@@ -132,13 +132,11 @@ outputs:
         - python >=3.8
         - dask-core {{ version }}
         - distributed {{ version }}
-        - cytoolz >=0.8.2
-        - numpy >=1.18
-        - pandas >=1.0
-        - bokeh >=2.1.1
+        - cytoolz
+        - numpy
+        - pandas
+        - bokeh
         - jinja2
-      run_constrained:
-        - openssl !=1.1.1e
     test:
       imports:
         - dask
