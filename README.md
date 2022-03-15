@@ -13,9 +13,6 @@ Development: https://github.com/dask/dask
 
 Documentation: https://dask.org/
 
-Dask is a flexible parallel computing library for analytics.
-
-
 Current build status
 ====================
 
@@ -35,6 +32,8 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-dask-green.svg)](https://anaconda.org/conda-forge/dask) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask.svg)](https://anaconda.org/conda-forge/dask) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask.svg)](https://anaconda.org/conda-forge/dask) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask.svg)](https://anaconda.org/conda-forge/dask) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dask--core-green.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-distributed-green.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) |
 
 Installing dask
 ===============
@@ -46,10 +45,10 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `dask` can be installed with:
+Once the `conda-forge` channel has been enabled, `dask, dask-core, distributed` can be installed with:
 
 ```
-conda install dask
+conda install dask dask-core distributed
 ```
 
 It is possible to list all of the versions of `dask` available on your platform with:
@@ -128,8 +127,12 @@ Feedstock Maintainers
 * [@jcrist](https://github.com/jcrist/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@koverholt](https://github.com/koverholt/)
+* [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
+* [@ogrisel](https://github.com/ogrisel/)
 * [@pitrou](https://github.com/pitrou/)
+* [@shoyer](https://github.com/shoyer/)
+* [@sinhrks](https://github.com/sinhrks/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
 

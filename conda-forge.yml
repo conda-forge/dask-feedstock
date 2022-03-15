@@ -1,5 +1,7 @@
 conda_forge_output_validation: true
-bot: {check_solvable: true}
+bot:
+  check_solvable: true
 github:
   branch_name: main
   tooling_branch_name: main
+  repo_name: dask-feedstock
