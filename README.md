@@ -1,5 +1,5 @@
-About dask-split
-================
+About dask
+==========
 
 Home: https://dask.org/
 
@@ -35,10 +35,10 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-dask--core-green.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-distributed-green.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/distributed.svg)](https://anaconda.org/conda-forge/distributed) |
 
-Installing dask-split
-=====================
+Installing dask
+===============
 
-Installing `dask-split` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `dask` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -97,17 +97,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating dask-split-feedstock
-=============================
+Updating dask-feedstock
+=======================
 
-If you would like to improve the dask-split recipe or build a new
+If you would like to improve the dask recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/dask-split-feedstock are
+Note that all branches in the conda-forge/dask-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
