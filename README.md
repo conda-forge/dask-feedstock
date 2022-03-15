@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-feedstock/blob/master/LICENSE.txt)
 
-Summary: Parallel Python with task scheduling
+Summary: Parallel PyData with Task Scheduling
 
 Development: https://github.com/dask/dask
 
