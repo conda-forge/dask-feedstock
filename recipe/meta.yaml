@@ -54,7 +54,6 @@ outputs:
       summary: Parallel PyData with Task Scheduling
       license: BSD-3-Clause
       license_file: dask/LICENSE.txt
-      summary: Parallel Python with task scheduling
       doc_url: https://dask.org/
       dev_url: https://github.com/dask/dask
 
