@@ -10,7 +10,7 @@ source:
   sha256: 9e0188dd4397099f148e80e04902703c465e577c747591f0e9b801998ad3abf0
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
@@ -21,6 +21,7 @@ requirements:
     - dask-core {{ version }}
     - distributed {{ version }}
     - cytoolz >=0.8.2
+    - lz4
     - numpy >=1.18
     - pandas >=1.0
     - bokeh >=2.4.2
