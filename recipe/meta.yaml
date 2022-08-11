@@ -18,8 +18,8 @@ requirements:
     - python >=3.8
   run:
     - python >=3.8
-    - dask-core ={{ version }},!={{ version }}a.*
-    - distributed ={{ version }},!={{ version }}a.*
+    - dask-core ={{ version }},!={{ version }}a*
+    - distributed ={{ version }},!={{ version }}a*
     - cytoolz >=0.8.2
     - lz4
     - numpy >=1.18
