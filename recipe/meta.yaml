@@ -10,7 +10,7 @@ source:
   sha256: a14c1c5143081701d4fe62283e09cc5ad5336dff3a152de64eb77ee3180e9792
 
 build:
-  number: 1
+  number: 2
   noarch: python
 
 requirements:
@@ -18,8 +18,8 @@ requirements:
     - python >=3.8
   run:
     - python >=3.8
-    - dask-core ={{ version }},!={{ version }}a*
-    - distributed ={{ version }},!={{ version }}a*
+    - dask-core {{ version }}.*,!={{ version }}a.*
+    - distributed {{ version }}.*,!={{ version }}a.*
     - cytoolz >=0.8.2
     - lz4
     - numpy >=1.18
