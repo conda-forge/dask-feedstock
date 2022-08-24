@@ -10,18 +10,16 @@ source:
   sha256: 84f9f229e4fc6c0df8a23620f2b03f277b1bfb15a497603c704743443e38d420
 
 build:
-  number: 2
+  number: 3
   noarch: python
 
 requirements:
   host:
     - python >=3.8
-    - dask-core {{ version }}
-    - distributed {{ version }}
   run:
     - python >=3.8
-    - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
-    - {{ pin_compatible('distributed', max_pin='x.x.x') }}
+    - dask-core {{ version }}.*,!={{ version }}a.*
+    - distributed {{ version }}.*,!={{ version }}a.*
     - cytoolz >=0.8.2
     - lz4
     - numpy >=1.18
