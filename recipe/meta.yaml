@@ -48,7 +48,6 @@ test:
     - distributed
 
   commands:
-    - pip check
     - dask --version
     - dask info versions
 
