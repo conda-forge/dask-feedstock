@@ -10,8 +10,10 @@ source:
   sha256: f277a3b300ecc1d0be232a339f346dff686e0becdb0843c0aaf2ae943d5492d3
 
 build:
-  number: 2
+  number: 3
   noarch: python
+  entry_points:
+    - dask = dask.__main__:main
 
 requirements:
   host:
