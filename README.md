@@ -1,11 +1,11 @@
-About dask
-==========
+About dask-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dask.org/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parallel PyData with Task Scheduling
 
