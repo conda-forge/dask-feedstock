@@ -8,9 +8,11 @@ package:
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
   sha256: 9504a1e9f5d8e5403fae931f9f1660d41f510f48895ccefce856ec6a4c2198d8
+  patches:
+    - 0001-python-import.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
