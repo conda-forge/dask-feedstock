@@ -1,4 +1,4 @@
-{% set version = "2024.5.1" %}
+{% set version = "2024.5.2" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: e071fda67031c314569e37ca70b3e88bb30f1d91ff8ee4122b541845847cc264
+  sha256: 5c9722c44d0195e78b6e54197aa3302e6fcaaac2310fd3014560bcb86253dcb3
 
 build:
   number: 0
