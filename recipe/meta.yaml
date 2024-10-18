@@ -1,4 +1,4 @@
-{% set version = "2024.9.1" %}
+{% set version = "2024.10.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 06eccc6a68d2882bcd9de24548fa96e8d0da7fbfff0baed3f3c2a526b73dfbb4
+  sha256: dfd3efec5d8d8340fb647d0347637133030cad261b714623cc27de286e9db037
 
 build:
   number: 0
@@ -29,8 +29,7 @@ requirements:
     - dask-expr >=1.1,<1.2
     - bokeh >=3.1.0
     - jinja2 >=2.10.3
-    - pyarrow >=7.0
-    - pyarrow-hotfix
+    - pyarrow >=14.0.1
 
   run_constrained:
     - openssl !=1.1.1e
