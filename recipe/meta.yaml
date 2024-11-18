@@ -1,4 +1,5 @@
 {% set version = "2024.11.2" %}
+{% set python_min = "3.10" %}
 
 
 package:
@@ -6,20 +7,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/d/dask/dask-{{ version }}.tar.gz
   sha256: 9a72bee3f149ff89bc492340d4bcba33d5dd3e3a9d471d2b4b3872f2d71ddaae
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
   host:
-    - python >=3.10
+    - python {{ python_min }}
     - dask-core {{ version }}
     - distributed {{ version }}
   run:
-    - python >=3.10
+    - python >={{ python_min }}
     - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
     - {{ pin_compatible('distributed', max_pin='x.x.x') }}
     - cytoolz >=0.11.0
@@ -35,6 +36,10 @@ requirements:
     - openssl !=1.1.1e
 
 test:
+  requires:
+    - python {{ python_min }}
+    - pip
+
   imports:
     - dask
     - dask.array
@@ -48,6 +53,7 @@ test:
     - distributed
 
   commands:
+    - pip check
     - dask --version
     - dask info versions
 
