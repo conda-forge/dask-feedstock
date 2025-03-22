@@ -1,4 +1,4 @@
-{% set version = "2025.2.0" %}
+{% set version = "2025.3.0" %}
 {% set python_min = "3.10" %}
 
 
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 89c87125d04d28141eaccc4794164ce9098163fd22d8ad943db48f8d4c815460
+  url: https://files.pythonhosted.org/packages/c3/f1/b4d8ccb5010ecba58a1799cb3c6b7ef5ed0d7d2add53adc1fc0d0ace56fe/dask-{{ version }}.tar.gz
+  sha256: 322834f44ebc24abeb564c56ccb817c97d6e7af6be71ad0ad96b78b51f2e0e85
 
 build:
   number: 0
