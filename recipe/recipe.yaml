@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python 3.10.*
+    - python ${{ python_min }}.*
     - dask-core 2025.5.1.*
     - distributed 2025.5.1.*
   run:
