@@ -19,8 +19,8 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - dask-core 2025.5.1.*
-    - distributed 2025.5.1.*
+    - dask-core ${{ version }}
+    - distributed ${{ version }}
   run:
     - python >=${{ python_min }}
     - ${{ pin_compatible('dask-core', upper_bound='x.x.x') }}
