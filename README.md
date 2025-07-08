@@ -15,7 +15,6 @@ Documentation: https://dask.org/
 
 Dask is a flexible parallel computing library for analytics.
 
-
 Current build status
 ====================
 
