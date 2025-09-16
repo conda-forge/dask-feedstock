@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2025.7.0"
+  version: "2025.9.0"
   python_min: 3.10
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dask/dask-${{ version }}.tar.gz
-  sha256: c3a0d4e78882e85ea81dbc71e6459713e45676e2d17e776c2f3f19848039e4cf
+  sha256: 37a3e73f3bba43e2b9de38a33b315c18a881d2108aba078685bab8e5c2cff7a0
 
 build:
   number: 0
